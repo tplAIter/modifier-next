@@ -1,0 +1,43 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.server-data",
+  "files": [
+    {
+      "sourcePath": "next-files/src/server/env.ts",
+      "targetPath": "src/server/env.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:83cbaddf6769da0fc163a6aba8461f43846729e4ba9e4e3bf0afb0f1c7396b36"
+    },
+    {
+      "sourcePath": "next-files/src/server/items.ts",
+      "targetPath": "src/server/items.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:ce8e735bb837489a053dc92a2610c45dc20266a2faaf17ef32c1fd46e4a06df0"
+    },
+    {
+      "sourcePath": "next-files/src/test/client-form.test.tsx",
+      "targetPath": "src/test/client-form.test.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:be9563097c3e78931bb5ac4c334b7b644070b820efd1e0a0c525f03755ad23e1"
+    },
+    {
+      "sourcePath": "next-files/src/test/route.test.ts",
+      "targetPath": "src/test/route.test.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:0453bf21526f4e42834ffcee15eb12629bcd29738336e970be51a7572ff8016f"
+    },
+    {
+      "sourcePath": "next-files/src/test/server-boundary.test.ts",
+      "targetPath": "src/test/server-boundary.test.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:2933a24edffdaabb6b3fda0a8c693587863d495fd5d2f5a39e98414433866d1c"
+    }
+  ],
+  "slots": [],
+  "blocks": [
+    {
+      "sourcePath": "block-exports/next-server-data.yaml",
+      "contentSHA256": "sha256:cef2ecde208ca27ea1cbcc5727172fa73be15dc167d99f1bc7bcde560e6873d4"
+    }
+  ]
+}

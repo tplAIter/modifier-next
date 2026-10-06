@@ -1,0 +1,4 @@
+import 'server-only';
+import type { ApiClient } from '../data/api-client';
+import { text } from '../data/schema';
+export async function read{{ .Name.Pascal }}(client: ApiClient, signal: AbortSignal): Promise<string> { return client.request('{{ .Name.Kebab }}', { signal }, value => text(value)); }

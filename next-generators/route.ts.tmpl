@@ -1,0 +1,4 @@
+export async function GET(request: Request): Promise<Response> {
+  if (request.signal.aborted) return Response.json({ error: 'Request cancelled.' }, { status: 408 });
+  return Response.json({ resource: '{{ .Name.Kebab }}' });
+}

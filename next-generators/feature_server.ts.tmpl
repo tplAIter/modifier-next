@@ -1,0 +1,8 @@
+import 'server-only';
+export interface {{ .Name.Pascal }}Model { id: string; title: string }
+export function validate{{ .Name.Pascal }}(value: unknown): {{ .Name.Pascal }}Model {
+  if (typeof value !== 'object' || value === null || Array.isArray(value)) throw new Error('Expected a model.');
+  const model = value as Record<string, unknown>;
+  if (Object.keys(model).sort().join(',') !== 'id,title' || typeof model.id !== 'string' || !model.id || typeof model.title !== 'string' || !model.title.trim()) throw new Error('Invalid model.');
+  return { id: model.id, title: model.title };
+}

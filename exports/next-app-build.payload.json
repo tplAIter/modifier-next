@@ -1,0 +1,32 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.app-build",
+  "files": [
+    {
+      "sourcePath": "next-files/eslint.config.js",
+      "targetPath": "eslint.config.js",
+      "mode": "100644",
+      "contentSHA256": "sha256:fa681d7a86853bee4604bea10c38eefd6b02cc30d1286a336293e31e93d70585"
+    },
+    {
+      "sourcePath": "next-files/next-env.d.ts",
+      "targetPath": "next-env.d.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:ba88175f68a66561b7b27a493cebcbb0c525568fbeb00502da306b3c40fde266"
+    },
+    {
+      "sourcePath": "next-files/next.config.ts",
+      "targetPath": "next.config.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:e7b375e847922dddb83cea385af86cc268a8552b5b2287472b9b01b76d8b32f9"
+    },
+    {
+      "sourcePath": "next-files/tsconfig.json",
+      "targetPath": "tsconfig.json",
+      "mode": "100644",
+      "contentSHA256": "sha256:ee0492d75915dc96388a140946a43129657079f6ccc59718b0cf0f0d50b40b29"
+    }
+  ],
+  "slots": [],
+  "blocks": []
+}

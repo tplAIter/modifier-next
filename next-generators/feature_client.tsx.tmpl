@@ -1,0 +1,2 @@
+'use client';
+export function {{ .Name.Pascal }}Feature({ title, pending, onSubmit }: { title: string; pending: boolean; onSubmit: () => void }) { return <section><h2>{title}</h2><button type="button" disabled={pending} onClick={onSubmit}>Continue</button>{pending && <p role="status">Saving…</p>}</section>; }

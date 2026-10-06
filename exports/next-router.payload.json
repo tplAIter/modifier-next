@@ -1,0 +1,73 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.router",
+  "files": [
+    {
+      "sourcePath": "next-files/src/app/api/items/route.ts",
+      "targetPath": "src/app/api/items/route.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:ab21d6437d8badef3021488367ce0e6ea92dcd7d10b5e3987c7690d78a1846e8"
+    },
+    {
+      "sourcePath": "next-files/src/app/error.tsx",
+      "targetPath": "src/app/error.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:39f75abd2aaba097a6df1e2b2f12ad7d136765020371537f6b5736cb8444aa1c"
+    },
+    {
+      "sourcePath": "next-files/src/app/items/actions.ts",
+      "targetPath": "src/app/items/actions.ts",
+      "mode": "100644",
+      "contentSHA256": "sha256:84c3138ee4246b2b5ca6a51f790636580fb5cc0c21d96598ce82ba32e7ea0e8d"
+    },
+    {
+      "sourcePath": "next-files/src/app/items/page.tsx",
+      "targetPath": "src/app/items/page.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:7f6d57b9eed8c20c51e406d792f71c7ca6eb8560cac39e61dbd186c0096b96e5"
+    },
+    {
+      "sourcePath": "next-files/src/app/layout.tsx",
+      "targetPath": "src/app/layout.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:9d427ff73ee3aae85acd4c1220a6552d33c3fa0fcb4bf261db8ca18cd1f02ac0"
+    },
+    {
+      "sourcePath": "next-files/src/app/loading.tsx",
+      "targetPath": "src/app/loading.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:d274bca331baa7664b1cc8ef3eb5767cb455c80ac6f5c0fdd5bbc5dd7d2fedd7"
+    },
+    {
+      "sourcePath": "next-files/src/app/not-found.tsx",
+      "targetPath": "src/app/not-found.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:742c92ec68feec9cdad2f73399ff1a5bc18fc9488a46d9e54fc2768b552cb031"
+    },
+    {
+      "sourcePath": "next-files/src/app/page.tsx",
+      "targetPath": "src/app/page.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:3d49e335aeffc7d61bc41523637edec9446a696e70351aa6133ca956c8ffa7b0"
+    },
+    {
+      "sourcePath": "next-files/src/components/ClientProviders.tsx",
+      "targetPath": "src/components/ClientProviders.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:8129c466a761c2f7b2522e01b409abdc8577aadf3e6abaaada667fd55f2d1bdd"
+    },
+    {
+      "sourcePath": "next-files/src/components/ItemForm.client.tsx",
+      "targetPath": "src/components/ItemForm.client.tsx",
+      "mode": "100644",
+      "contentSHA256": "sha256:35c3697e199e02229e34004678eacb77853213978cadaab3e44b04ff10760f63"
+    }
+  ],
+  "slots": [],
+  "blocks": [
+    {
+      "sourcePath": "block-exports/next-router.yaml",
+      "contentSHA256": "sha256:2b0af09b2a93392fb8c474d2d46fa15cfb569cc3bdc982af05a3912e63916999"
+    }
+  ]
+}

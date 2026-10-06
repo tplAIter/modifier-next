@@ -1,0 +1,26 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.skills",
+  "files": [
+    {
+      "sourcePath": "skills/next-client-server.md",
+      "targetPath": "skills/next-client-server.md",
+      "mode": "100644",
+      "contentSHA256": "sha256:d7d5e9fe5a9449f03f02d2c993b2c8405ff0c298943980b52d2952f113ba63f1"
+    },
+    {
+      "sourcePath": "skills/next-routing.md",
+      "targetPath": "skills/next-routing.md",
+      "mode": "100644",
+      "contentSHA256": "sha256:c72480aab2ff488c1c85a3bf61349f1f29c8e2e777e9c5134adda224e10e2f70"
+    },
+    {
+      "sourcePath": "skills/next-testing.md",
+      "targetPath": "skills/next-testing.md",
+      "mode": "100644",
+      "contentSHA256": "sha256:3d1193f1ca39a3060e8cefd9953461b78d5de9948a8078181c8853b84fb90a32"
+    }
+  ],
+  "slots": [],
+  "blocks": []
+}

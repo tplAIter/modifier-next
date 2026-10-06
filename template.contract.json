@@ -1,0 +1,344 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "blocks": [],
+  "exportID": "next.content",
+  "files": [
+    {
+      "contentSHA256": "sha256:0a7b374df30bbecba58c99d2975087791e9075d018928f22e166a612a5059fd7",
+      "mode": "100644",
+      "sourcePath": ".github/CODEOWNERS",
+      "targetPath": ".github/CODEOWNERS"
+    },
+    {
+      "contentSHA256": "sha256:fadd85b5c573914aa63819002ebd8a7568f86b13e7f3c14a2957bcaf4af3c41e",
+      "mode": "100644",
+      "sourcePath": ".github/workflows/template-check.yml",
+      "targetPath": ".github/workflows/template-check.yml"
+    },
+    {
+      "contentSHA256": "sha256:cf6ad2dae782a2fd6ad5a06551e479aa9e1fd013006caf81d85e7851bdac104e",
+      "mode": "100644",
+      "sourcePath": "AGENTS.md",
+      "targetPath": "AGENTS.md"
+    },
+    {
+      "contentSHA256": "sha256:2fcedc5d49440dd59913d718c79db5810a54644ce2c58664ed224fc4a953d4f5",
+      "mode": "100644",
+      "sourcePath": "LICENSE",
+      "targetPath": "LICENSE"
+    },
+    {
+      "contentSHA256": "sha256:5d2a3b493c43c71fc88f403f77973e16af87de81db3a862f834449e2844e1b3a",
+      "mode": "100644",
+      "sourcePath": "README.md",
+      "targetPath": "README.md"
+    },
+    {
+      "contentSHA256": "sha256:50480d3ea5b4c1e137bba4d17873157aa0543a0b10616161385af4eba3ede938",
+      "mode": "100644",
+      "sourcePath": "block-exports/bodies/next-router.tsx",
+      "targetPath": "block-exports/bodies/next-router.tsx"
+    },
+    {
+      "contentSHA256": "sha256:0f5941ff0353e3e9aa77c54c24c936ca0c4a4d4481698e99b41c8f488cdf75cf",
+      "mode": "100644",
+      "sourcePath": "block-exports/bodies/next-server-data.ts",
+      "targetPath": "block-exports/bodies/next-server-data.ts"
+    },
+    {
+      "contentSHA256": "sha256:2b0af09b2a93392fb8c474d2d46fa15cfb569cc3bdc982af05a3912e63916999",
+      "mode": "100644",
+      "sourcePath": "block-exports/next-router.yaml",
+      "targetPath": "block-exports/next-router.yaml"
+    },
+    {
+      "contentSHA256": "sha256:cef2ecde208ca27ea1cbcc5727172fa73be15dc167d99f1bc7bcde560e6873d4",
+      "mode": "100644",
+      "sourcePath": "block-exports/next-server-data.yaml",
+      "targetPath": "block-exports/next-server-data.yaml"
+    },
+    {
+      "contentSHA256": "sha256:0c64f98dba40129a34d95dd1f8f4f3ce7f9292b75e34ac790c90936a8ef40706",
+      "mode": "100644",
+      "sourcePath": "checks/README.md",
+      "targetPath": "checks/README.md"
+    },
+    {
+      "contentSHA256": "sha256:3bcd5c1862c9ef08b85c2cf397f8a63ed16132e96646ec7a78a9c161930c79c8",
+      "mode": "100755",
+      "sourcePath": "checks/contracts.sh",
+      "targetPath": "checks/contracts.sh"
+    },
+    {
+      "contentSHA256": "sha256:9e95e1f867e164c96a51bb2410affd9dac3d3a606f7ee70d775a6ba1c8cf9b2f",
+      "mode": "100755",
+      "sourcePath": "checks/generated-app.sh",
+      "targetPath": "checks/generated-app.sh"
+    },
+    {
+      "contentSHA256": "sha256:0098e7b4ea6ecafc04fb80f60340d167afb162fc1c87f2eed6c56fc22c2ba594",
+      "mode": "100755",
+      "sourcePath": "checks/lifecycle.sh",
+      "targetPath": "checks/lifecycle.sh"
+    },
+    {
+      "contentSHA256": "sha256:51d4565a8fff55cf0f574b1e7341e47148a21156a2e1d31756c57c7f8f2b925d",
+      "mode": "100755",
+      "sourcePath": "checks/native-composition.sh",
+      "targetPath": "checks/native-composition.sh"
+    },
+    {
+      "contentSHA256": "sha256:ef1d334d9df28c4f3ed04e117d429306fd754fd3372743a10a6c080e9e983aca",
+      "mode": "100644",
+      "sourcePath": "docs/acceptance.md",
+      "targetPath": "docs/acceptance.md"
+    },
+    {
+      "contentSHA256": "sha256:a45e0f329fd9c664c5257a5cd393a98a1b66c5cb50a4665514438c94973281d4",
+      "mode": "100644",
+      "sourcePath": "docs/client-server-boundary.md",
+      "targetPath": "docs/client-server-boundary.md"
+    },
+    {
+      "contentSHA256": "sha256:3d3ff809eb7d150ec400f21769ff154f3e12cb526bfec9be084ba2d75f30b917",
+      "mode": "100644",
+      "sourcePath": "docs/compatibility-matrix.md",
+      "targetPath": "docs/compatibility-matrix.md"
+    },
+    {
+      "contentSHA256": "sha256:f6ad2dc022e530b2e0d0114c371d2c52fedbd715df83323f48148daf95731df6",
+      "mode": "100644",
+      "sourcePath": "docs/lifecycle.md",
+      "targetPath": "docs/lifecycle.md"
+    },
+    {
+      "contentSHA256": "sha256:8778f0625f7ccf643c7910bd8c56cf726de2900502015faeaf6e7f5334b2f9aa",
+      "mode": "100644",
+      "sourcePath": "exports/next-app-build.payload.json",
+      "targetPath": "exports/next-app-build.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:c7f010a52d7ffc33081cdc00eca78174e742225bfa022fdc98cc528c824bf678",
+      "mode": "100644",
+      "sourcePath": "exports/next-generator-routing.payload.json",
+      "targetPath": "exports/next-generator-routing.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:7a4b93435ab5be76b39f8fd99feb4e8e591fa10371ec5acdfd0c5cb1833be7b6",
+      "mode": "100644",
+      "sourcePath": "exports/next-packages.payload.json",
+      "targetPath": "exports/next-packages.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:6d71b21ed2af751d0ce3e3b2b7db64014b06d90b2435ea943d1a26bb6dca0402",
+      "mode": "100644",
+      "sourcePath": "exports/next-router.payload.json",
+      "targetPath": "exports/next-router.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:9cae388a61481d00371aa5de70091c81fc25797cdcaac03fce7a357000565788",
+      "mode": "100644",
+      "sourcePath": "exports/next-server-data.payload.json",
+      "targetPath": "exports/next-server-data.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:7293ee8e4eb9ad882744f5dda81a0fbfd75991217444adffb3eea5d0078cf90c",
+      "mode": "100644",
+      "sourcePath": "exports/next-skills.payload.json",
+      "targetPath": "exports/next-skills.payload.json"
+    },
+    {
+      "contentSHA256": "sha256:f2e67522db8ff44c62f7d2318a600f5ae601b8d0b6b5b750794d2023fbc59eaa",
+      "mode": "100644",
+      "sourcePath": "next-files/bun.lock",
+      "targetPath": "next-files/bun.lock"
+    },
+    {
+      "contentSHA256": "sha256:fa681d7a86853bee4604bea10c38eefd6b02cc30d1286a336293e31e93d70585",
+      "mode": "100644",
+      "sourcePath": "next-files/eslint.config.js",
+      "targetPath": "next-files/eslint.config.js"
+    },
+    {
+      "contentSHA256": "sha256:ba88175f68a66561b7b27a493cebcbb0c525568fbeb00502da306b3c40fde266",
+      "mode": "100644",
+      "sourcePath": "next-files/next-env.d.ts",
+      "targetPath": "next-files/next-env.d.ts"
+    },
+    {
+      "contentSHA256": "sha256:e7b375e847922dddb83cea385af86cc268a8552b5b2287472b9b01b76d8b32f9",
+      "mode": "100644",
+      "sourcePath": "next-files/next.config.ts",
+      "targetPath": "next-files/next.config.ts"
+    },
+    {
+      "contentSHA256": "sha256:a6353b46e9eb1e1cfdd780df432af27961bedd38c9a299ce3f1bc76478ce53da",
+      "mode": "100644",
+      "sourcePath": "next-files/package.json.tmpl",
+      "targetPath": "next-files/package.json.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:ab21d6437d8badef3021488367ce0e6ea92dcd7d10b5e3987c7690d78a1846e8",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/api/items/route.ts",
+      "targetPath": "next-files/src/app/api/items/route.ts"
+    },
+    {
+      "contentSHA256": "sha256:39f75abd2aaba097a6df1e2b2f12ad7d136765020371537f6b5736cb8444aa1c",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/error.tsx",
+      "targetPath": "next-files/src/app/error.tsx"
+    },
+    {
+      "contentSHA256": "sha256:84c3138ee4246b2b5ca6a51f790636580fb5cc0c21d96598ce82ba32e7ea0e8d",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/items/actions.ts",
+      "targetPath": "next-files/src/app/items/actions.ts"
+    },
+    {
+      "contentSHA256": "sha256:7f6d57b9eed8c20c51e406d792f71c7ca6eb8560cac39e61dbd186c0096b96e5",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/items/page.tsx",
+      "targetPath": "next-files/src/app/items/page.tsx"
+    },
+    {
+      "contentSHA256": "sha256:9d427ff73ee3aae85acd4c1220a6552d33c3fa0fcb4bf261db8ca18cd1f02ac0",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/layout.tsx",
+      "targetPath": "next-files/src/app/layout.tsx"
+    },
+    {
+      "contentSHA256": "sha256:d274bca331baa7664b1cc8ef3eb5767cb455c80ac6f5c0fdd5bbc5dd7d2fedd7",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/loading.tsx",
+      "targetPath": "next-files/src/app/loading.tsx"
+    },
+    {
+      "contentSHA256": "sha256:742c92ec68feec9cdad2f73399ff1a5bc18fc9488a46d9e54fc2768b552cb031",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/not-found.tsx",
+      "targetPath": "next-files/src/app/not-found.tsx"
+    },
+    {
+      "contentSHA256": "sha256:3d49e335aeffc7d61bc41523637edec9446a696e70351aa6133ca956c8ffa7b0",
+      "mode": "100644",
+      "sourcePath": "next-files/src/app/page.tsx",
+      "targetPath": "next-files/src/app/page.tsx"
+    },
+    {
+      "contentSHA256": "sha256:8129c466a761c2f7b2522e01b409abdc8577aadf3e6abaaada667fd55f2d1bdd",
+      "mode": "100644",
+      "sourcePath": "next-files/src/components/ClientProviders.tsx",
+      "targetPath": "next-files/src/components/ClientProviders.tsx"
+    },
+    {
+      "contentSHA256": "sha256:35c3697e199e02229e34004678eacb77853213978cadaab3e44b04ff10760f63",
+      "mode": "100644",
+      "sourcePath": "next-files/src/components/ItemForm.client.tsx",
+      "targetPath": "next-files/src/components/ItemForm.client.tsx"
+    },
+    {
+      "contentSHA256": "sha256:83cbaddf6769da0fc163a6aba8461f43846729e4ba9e4e3bf0afb0f1c7396b36",
+      "mode": "100644",
+      "sourcePath": "next-files/src/server/env.ts",
+      "targetPath": "next-files/src/server/env.ts"
+    },
+    {
+      "contentSHA256": "sha256:ce8e735bb837489a053dc92a2610c45dc20266a2faaf17ef32c1fd46e4a06df0",
+      "mode": "100644",
+      "sourcePath": "next-files/src/server/items.ts",
+      "targetPath": "next-files/src/server/items.ts"
+    },
+    {
+      "contentSHA256": "sha256:be9563097c3e78931bb5ac4c334b7b644070b820efd1e0a0c525f03755ad23e1",
+      "mode": "100644",
+      "sourcePath": "next-files/src/test/client-form.test.tsx",
+      "targetPath": "next-files/src/test/client-form.test.tsx"
+    },
+    {
+      "contentSHA256": "sha256:0453bf21526f4e42834ffcee15eb12629bcd29738336e970be51a7572ff8016f",
+      "mode": "100644",
+      "sourcePath": "next-files/src/test/route.test.ts",
+      "targetPath": "next-files/src/test/route.test.ts"
+    },
+    {
+      "contentSHA256": "sha256:2933a24edffdaabb6b3fda0a8c693587863d495fd5d2f5a39e98414433866d1c",
+      "mode": "100644",
+      "sourcePath": "next-files/src/test/server-boundary.test.ts",
+      "targetPath": "next-files/src/test/server-boundary.test.ts"
+    },
+    {
+      "contentSHA256": "sha256:ee0492d75915dc96388a140946a43129657079f6ccc59718b0cf0f0d50b40b29",
+      "mode": "100644",
+      "sourcePath": "next-files/tsconfig.json",
+      "targetPath": "next-files/tsconfig.json"
+    },
+    {
+      "contentSHA256": "sha256:a4998f5c63a9921352c097e65f6417dabad5b6f10133e033fabbcda04a0db39d",
+      "mode": "100644",
+      "sourcePath": "next-generators/api.ts.tmpl",
+      "targetPath": "next-generators/api.ts.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:a66ae291ba7d46d6b0f8b13a28c74ff26e8e88ede31407ba7014c6b89e66933a",
+      "mode": "100644",
+      "sourcePath": "next-generators/client-component.tsx.tmpl",
+      "targetPath": "next-generators/client-component.tsx.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:2c7e8bfab7e5487fdb715d77c31ad5332a88c0bb8d57cd8b5638cc497b5e0585",
+      "mode": "100644",
+      "sourcePath": "next-generators/feature_client.tsx.tmpl",
+      "targetPath": "next-generators/feature_client.tsx.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:a0189cc7adaff152c9261ee2e83a348851564ef350b8e2c4d2a22611df04c266",
+      "mode": "100644",
+      "sourcePath": "next-generators/feature_server.ts.tmpl",
+      "targetPath": "next-generators/feature_server.ts.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:f1ca627a5b80865780dc80dd14f5914aec326ea3f554ed7043fe9cd9ee99aeb0",
+      "mode": "100644",
+      "sourcePath": "next-generators/page.tsx.tmpl",
+      "targetPath": "next-generators/page.tsx.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:5fa3689d70320855939370da6b482a225838c4c97893eed4226d96173f5643d8",
+      "mode": "100644",
+      "sourcePath": "next-generators/route.ts.tmpl",
+      "targetPath": "next-generators/route.ts.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:70e1a36b2c3d476e9959e3a4022a256f92b9ad4f19e5473c1e057fc64023cf5a",
+      "mode": "100644",
+      "sourcePath": "next-generators/server-component.tsx.tmpl",
+      "targetPath": "next-generators/server-component.tsx.tmpl"
+    },
+    {
+      "contentSHA256": "sha256:d7d5e9fe5a9449f03f02d2c993b2c8405ff0c298943980b52d2952f113ba63f1",
+      "mode": "100644",
+      "sourcePath": "skills/next-client-server.md",
+      "targetPath": "skills/next-client-server.md"
+    },
+    {
+      "contentSHA256": "sha256:c72480aab2ff488c1c85a3bf61349f1f29c8e2e777e9c5134adda224e10e2f70",
+      "mode": "100644",
+      "sourcePath": "skills/next-routing.md",
+      "targetPath": "skills/next-routing.md"
+    },
+    {
+      "contentSHA256": "sha256:3d1193f1ca39a3060e8cefd9953461b78d5de9948a8078181c8853b84fb90a32",
+      "mode": "100644",
+      "sourcePath": "skills/next-testing.md",
+      "targetPath": "skills/next-testing.md"
+    },
+    {
+      "contentSHA256": "sha256:8dae1c95b0e396cbc43b55cb63115be3035248f247107a4f63ad6790bf2142f0",
+      "mode": "100644",
+      "sourcePath": "template.manifest.yaml",
+      "targetPath": "template.manifest.yaml"
+    }
+  ],
+  "slots": []
+}

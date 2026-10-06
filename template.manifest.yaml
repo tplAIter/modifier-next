@@ -1,0 +1,28 @@
+apiVersion: tplater.dev/v1alpha1
+kind: Template
+metadata:
+  name: next-author-payload
+  version: 0.1.0-preview
+  description: Author-only App Router payload; this manifest is not an installed modifier or native root.
+engine: {type: gotemplate, root: next-files}
+settings: []
+generators:
+  - kind: page
+    snippet: next-generators/page.tsx.tmpl
+    target: 'src/app/{{ .Name.Kebab }}/page.tsx'
+  - kind: route
+    snippet: next-generators/route.ts.tmpl
+    target: 'src/app/api/{{ .Name.Kebab }}/route.ts'
+  - kind: client-component
+    snippet: next-generators/client-component.tsx.tmpl
+    target: 'src/components/{{ .Name.Pascal }}.client.tsx'
+  - kind: server-component
+    snippet: next-generators/server-component.tsx.tmpl
+    target: 'src/components/{{ .Name.Pascal }}.server.tsx'
+  - kind: api
+    snippet: next-generators/api.ts.tmpl
+    target: 'src/server/{{ .Name.Snake }}-api.ts'
+  - kind: feature
+    targets:
+      - {snippet: next-generators/feature_server.ts.tmpl, target: 'src/server/{{ .Name.Snake }}.ts'}
+      - {snippet: next-generators/feature_client.tsx.tmpl, target: 'src/components/{{ .Name.Pascal }}Feature.client.tsx'}

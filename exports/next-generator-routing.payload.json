@@ -1,0 +1,50 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.generator-routing",
+  "files": [
+    {
+      "sourcePath": "next-generators/api.ts.tmpl",
+      "targetPath": "next-generators/api.ts.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:a4998f5c63a9921352c097e65f6417dabad5b6f10133e033fabbcda04a0db39d"
+    },
+    {
+      "sourcePath": "next-generators/client-component.tsx.tmpl",
+      "targetPath": "next-generators/client-component.tsx.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:a66ae291ba7d46d6b0f8b13a28c74ff26e8e88ede31407ba7014c6b89e66933a"
+    },
+    {
+      "sourcePath": "next-generators/feature_client.tsx.tmpl",
+      "targetPath": "next-generators/feature_client.tsx.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:2c7e8bfab7e5487fdb715d77c31ad5332a88c0bb8d57cd8b5638cc497b5e0585"
+    },
+    {
+      "sourcePath": "next-generators/feature_server.ts.tmpl",
+      "targetPath": "next-generators/feature_server.ts.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:a0189cc7adaff152c9261ee2e83a348851564ef350b8e2c4d2a22611df04c266"
+    },
+    {
+      "sourcePath": "next-generators/page.tsx.tmpl",
+      "targetPath": "next-generators/page.tsx.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:f1ca627a5b80865780dc80dd14f5914aec326ea3f554ed7043fe9cd9ee99aeb0"
+    },
+    {
+      "sourcePath": "next-generators/route.ts.tmpl",
+      "targetPath": "next-generators/route.ts.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:5fa3689d70320855939370da6b482a225838c4c97893eed4226d96173f5643d8"
+    },
+    {
+      "sourcePath": "next-generators/server-component.tsx.tmpl",
+      "targetPath": "next-generators/server-component.tsx.tmpl",
+      "mode": "100644",
+      "contentSHA256": "sha256:70e1a36b2c3d476e9959e3a4022a256f92b9ad4f19e5473c1e057fc64023cf5a"
+    }
+  ],
+  "slots": [],
+  "blocks": []
+}

@@ -1,0 +1,20 @@
+{
+  "apiVersion": "tplaiter.dev/export-payload/v1",
+  "exportID": "next.packages",
+  "files": [
+    {
+      "sourcePath": "next-files/bun.lock",
+      "targetPath": "bun.lock",
+      "mode": "100644",
+      "contentSHA256": "sha256:f2e67522db8ff44c62f7d2318a600f5ae601b8d0b6b5b750794d2023fbc59eaa"
+    },
+    {
+      "sourcePath": "next-files/package.json.tmpl",
+      "targetPath": "package.json",
+      "mode": "100644",
+      "contentSHA256": "sha256:a6353b46e9eb1e1cfdd780df432af27961bedd38c9a299ce3f1bc76478ce53da"
+    }
+  ],
+  "slots": [],
+  "blocks": []
+}

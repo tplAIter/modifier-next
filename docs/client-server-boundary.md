@@ -1,0 +1,7 @@
+# Client/server data boundary
+
+Only server/env.ts reads NEXT_BACKEND_BASE_URL. It rejects absent, credential-bearing, queried, fragmented or non-HTTP endpoints. Server modules import server-only. A backend endpoint is application configuration, not tplaiter source/installation authority; it is never derived from HOME/config/credential files. No request token, cookies or authorization header is forwarded automatically.
+
+The reused React ApiClient, item decoders and API operations enforce complete UTF-8 bounded JSON, closed item fields, explicit HTTP failures, confined paths and mandatory cancellation. Server requests add no-store and a15-second deadline, combining a route request signal when available. Server actions have a bounded deadline; they cannot claim client AbortSignal transport cancellation across the action serialization boundary. Their DTO results contain models or fixed errors, not transports/capabilities/environment.
+
+Interactive ItemForm, ClientProviders and App Router error boundaries use client. Pages/layout/route handlers remain server components. Client props are serializable Item arrays. Client form operations serialize mutations, preserve text on failure, validate/focus an accessible summary, disable pending controls and ignore results after unmount. The client never imports server/env or server/items; importing a use-server action is the framework action boundary. An external authenticated production backend and application auth policy are separate integrations.
