@@ -3,7 +3,15 @@ kind: Template
 metadata:
   name: next-author-payload
   version: 0.1.0-preview
-  description: Author-only App Router payload; this manifest is not an installed modifier or native root.
+  description: Author-only TypeScript Next App Router payload with page, route and client/server component generators.
+  labels:
+    tags: ["next", "react", "app-router", "author-only", "композиция"]
+    lang: ["typescript"]
+    framework: ["next", "react"]
+    candidate-kind: ["documentation-recipe"]
+    readiness: ["unknown"]
+    keywords: ["next", "app router", "page", "route", "client component", "server component", "author only", "страница", "маршрут", "клиентский компонент", "серверный компонент", "композиция"]
+    use-cases: ["Inspect author-only Next composition", "Author an App Router page or route", "Изучить авторскую композицию Next", "Описать страницу или маршрут App Router"]
 engine: {type: gotemplate, root: next-files}
 settings: []
 generators:

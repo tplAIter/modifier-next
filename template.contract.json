@@ -334,7 +334,7 @@
       "targetPath": "skills/next-testing.md"
     },
     {
-      "contentSHA256": "sha256:8dae1c95b0e396cbc43b55cb63115be3035248f247107a4f63ad6790bf2142f0",
+      "contentSHA256": "sha256:437395a7b62718423d58f69c1e868e58a85d6425f06a47b9cd63247c619c37fc",
       "mode": "100644",
       "sourcePath": "template.manifest.yaml",
       "targetPath": "template.manifest.yaml"
